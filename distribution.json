@@ -1,0 +1,1238 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "PoohServer-1.20.1",
+      "name": "PoohServer",
+      "description": "PoohServer Running Minecraft 1.20.1 (Forge v47.3.0)",
+      "icon": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/serverimg.png",
+      "version": "1.0.0",
+      "address": "pooh.ggm.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "d295c4a25914cc6486c2e501ef432b18",
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.3.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16542,
+                "MD5": "826cb4d525749099af9ecb33b732fb84",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/versions/1.20.1-forge-47.3.0/1.20.1-forge-47.3.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118685,
+                "MD5": "2ef1c9adb09cc3592e5e7185c90570c9",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16516,
+                "MD5": "f457a3acdf187aa53ca5cbac9a951fcf",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "09464464e54df9838666d62cf151c2c0",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2753075,
+                "MD5": "4804c269e3b593655a9526743f455ef8",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4792900,
+                "MD5": "505bc8230f0e393e853739df4e71da99",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.1.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24124,
+                "MD5": "4b4fe7e512819804660d621bf11c7381",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/coremods/5.1.6/coremods-5.1.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264538,
+                "MD5": "cad68c5d61009b7e94fac7150f3f1dcf",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.0/fmlloader-1.20.1-47.3.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170830,
+                "MD5": "572320060e2c3105df15da32091de640",
+                "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.0/fmlearlydisplay-1.20.1-47.3.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.mgen256.al:additional_lights:2.1.7@jar",
+          "name": "Additional Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 530405,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/additional_lights-1.20.1-2.1.7.jar",
+            "MD5": "2a2661fc9399c3fb4a40fda6e6eec0d1"
+          }
+        },
+        {
+          "id": "dqu.additionaladditions:additionaladditions:6.0.1@jar",
+          "name": "Additional Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3847478,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/additionaladditions-6.0.1.jar",
+            "MD5": "facb7d89c6a430c5b9bce29349894efd"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:advancementplaques:1.5.1@jar",
+          "name": "Advancement Plaques",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210148,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/AdvancementPlaques-1.20.1-forge-1.5.1.jar",
+            "MD5": "bff9f98aacf3b2220faf35e039ce8d63"
+          }
+        },
+        {
+          "id": "com.aetherteam:aether:1.20.1-1.2.0-neoforge@jar",
+          "name": "The Aether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23451926,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/aether-1.20.1-1.2.0-neoforge.jar",
+            "MD5": "6efe9124686f468b50b1424854c6abf1"
+          }
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:aiimprovements:0.5.2@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29553,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/AI-Improvements-1.20-0.5.2.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff"
+          }
+        },
+        {
+          "id": "com.ametrinstudios:ametrin:0.1.2@jar",
+          "name": "Ametrin API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 185349,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/ametrin-1.20-0.1.2.jar",
+            "MD5": "fe9b1185c59ef039ed28cf60b669acbd"
+          }
+        },
+        {
+          "id": "com.starfish_studios:another_furniture:1.20.1-3.0.1@jar",
+          "name": "Another Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2746864,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/another_furniture-forge-1.20.1-3.0.1.jar",
+            "MD5": "85653aaf197fa4e74c1e06c05e494f29"
+          }
+        },
+        {
+          "id": "xyz.apex.forge.apexcore.core:apexcore:10.0.0@jar",
+          "name": "ApexCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 556266,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/apexcore-1.20.1-10.0.0.jar",
+            "MD5": "a793cd598980f020a0dc2919205cc1b7"
+          }
+        },
+        {
+          "id": "com.obscuria:aquamirae:6.API15@jar",
+          "name": "Aquamirae",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17317836,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/aquamirae-6.API15.jar",
+            "MD5": "e8ed829ef58a231fd8f41003fa8f4e1b"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.init.platform:armourers_workshop:2.1.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3543966,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-2.1.0.jar",
+            "MD5": "395370402e6a656a7c50f81a53cea143"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:9.4.2@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 595049,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/artifacts-forge-9.4.2.jar",
+            "MD5": "e7ad51a4fbdd1c35d964a3eba388c6fe"
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:awesomedungeon:3.2.0@jar",
+          "name": "Awesome dungeon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 414203,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/awesomedungeon-forge-1.20.1-3.2.0.jar",
+            "MD5": "f2a95991bd717b642be42afed7c745c2"
+          }
+        },
+        {
+          "id": "net.pandarix:betterarcheology:1.1.7-1.20.1@jar",
+          "name": "Better Archeology",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 901797,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/betterarcheology-1.1.7-1.20.1.jar",
+            "MD5": "6a68627c02316f6b8d111f919e6856d7"
+          }
+        },
+        {
+          "id": "me.treyruffy:betterf3:7.0.2@jar",
+          "name": "BetterF3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 468517,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/BetterF3-7.0.2-Forge-1.20.1.jar",
+            "MD5": "7411ae023390cf6b148f05a6b685279f"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:18.0.0.598@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21800751,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/BiomesOPlenty-1.20.1-18.0.0.598.jar",
+            "MD5": "4da1cdecb5d3e403c6be03da6bc1f2c8"
+          }
+        },
+        {
+          "id": "com.barion:block_variants:5.0@jar",
+          "name": "Block Variants",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1789880,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/block_variants-1.20-5.0.jar",
+            "MD5": "c453c6217dfe921ecc385e85801659a9"
+          }
+        },
+        {
+          "id": "de.maxhenkel:camera:1.20.1-1.0.6@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 295652,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/camera-1.20.1-1.0.6.jar",
+            "MD5": "057bac5278a4e9d406e6da8b4b996929"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2613393,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+            "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.118@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1168391,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/cloth-config-11.1.118-forge.jar",
+            "MD5": "728bdaa093e07f3567640d36c55656ae"
+          }
+        },
+        {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.3.1-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 135260,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/CocoaInput-1.20.1-forge-4.3.1-EXPERIMENTAL.jar",
+            "MD5": "02eae55ea724bea7dc53cea1c53380ae"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:comforts:6.3.5+1.20.1@jar",
+          "name": "Comforts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 376472,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/comforts-forge-6.3.5+1.20.1.jar",
+            "MD5": "7f8283da4c43a05d98f986fdc78cab13"
+          }
+        },
+        {
+          "id": "alabaster.crabbersdelight:crabbersdelight:1.1.4@jar",
+          "name": "Crabber's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 284008,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/CrabbersDelight-1.20.1-1.1.4.jar",
+            "MD5": "a7a5c481a1ec89bdf21bfc9b09c973c4"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.6@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24736,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/cupboard-1.20.1-2.6.jar",
+            "MD5": "29fa1151f99dff55b0581e67eba5079e"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.8.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380722,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/curios-forge-5.8.1+1.20.1.jar",
+            "MD5": "01d88c09639a20569ac9dea5f4a33ea6"
+          }
+        },
+        {
+          "id": "net.brnbrd:delightful:3.5.2@jar",
+          "name": "Delightful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1151909,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Delightful-1.20.1-3.5.2.jar",
+            "MD5": "ead808caf9452d24be6f03bcdea7232d"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.58-1.20.x@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8762342,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/DungeonsArise-1.20.x-2.1.58-release.jar",
+            "MD5": "6ac48d0cf2ce763824f96f6d26963219"
+          }
+        },
+        {
+          "id": "samebutdifferent.ecologics:ecologics:2.2.0@jar",
+          "name": "Ecologics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1829363,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/ecologics-forge-1.20.1-2.2.0.jar",
+            "MD5": "f68cce5bcbf61751e11bdf38c8366eec"
+          }
+        },
+        {
+          "id": "xyz.vsngamer:elevatorid:1.20.1-lex-1.9@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 188132,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/elevatorid-1.20.1-lex-1.9.jar",
+            "MD5": "35c05c6c14993fe3fb38917ce09f51b8"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.4@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2915349,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.4.jar",
+            "MD5": "5b6bee961b278a3edd6e3935b061fbaa"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:fastfurnace:8.0.2@jar",
+          "name": "FastFurnace",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6170,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/FastFurnace-1.20.1-8.0.2.jar",
+            "MD5": "48b8d2df29ea216a625928e29a6434da"
+          }
+        },
+        {
+          "id": "net.olafski:fastleafdecay:31@jar",
+          "name": "Fast Leaf Decay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9833,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/FastLeafDecay-31.jar",
+            "MD5": "f9962d78568b9f71b70916238253d33c"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "com.lothrazar.library:flib:0.0.11@jar",
+          "name": "Flib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 286410,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/flib-1.20.1-0.0.11.jar",
+            "MD5": "6beaf76fcbdd4ab6c3d1bd2af7f160b3"
+          }
+        },
+        {
+          "id": "dev.xkmc.fruitsdelight.init:fruitsdelight:1.0.8@jar",
+          "name": "Fruits Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1918213,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/fruitsdelight-1.0.8.jar",
+            "MD5": "76f8fd9828029698b0343781505db834"
+          }
+        },
+        {
+          "id": "net.sjhub:gamblingplus:1.0-SNAPSHOT@jar",
+          "name": "GamblingPlus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26256,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/gamblingplus-1.0-SNAPSHOT.jar",
+            "MD5": "977d82047410224817e2655c116ce4e4"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.4.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 989799,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.4.2.jar",
+            "MD5": "fe8ff001e053e216879074b9ea2a6117"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.21@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133685,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.21.jar",
+            "MD5": "7d8be08fbc719d19f9d71c026fb8d5f4"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.8.0@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 525770,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Jade-1.20.1-forge-11.8.0.jar",
+            "MD5": "ab2a3eefd01651ebbf8063d4b75de1b2"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.3.0.4@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1127828,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/jei-1.20.1-forge-15.3.0.4.jar",
+            "MD5": "8f2c0bbb8f691be76f0b44c1d61d94e7"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.22@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7159484,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/journeymap-1.20.1-5.9.22-forge.jar",
+            "MD5": "8ba1f3871bfb23fb620d6a6d4493f252"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:1.99.2@jar",
+          "name": "Cataclysm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48406013,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/L_Enders_Cataclysm-1.99.3%20-1.20.1.jar",
+            "MD5": "a8a57f90c0604321852c003eaba6b472"
+          }
+        },
+        {
+          "id": "de.cristelknight:doapi:1.2.11@jar",
+          "name": "[Let's Do] API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1377129,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-API-forge-1.2.11-forge.jar",
+            "MD5": "e40b800d609cb6dedca11cabe3b167b8"
+          }
+        },
+        {
+          "id": "satisfy.bakery:bakery:1.1.9@jar",
+          "name": "[Let's Do] Bakery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1561737,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-bakery-forge-1.1.9.jar",
+            "MD5": "f1b29f53d7df921cdeb34c8539400776"
+          }
+        },
+        {
+          "id": "satisfy.beachparty:beachparty:1.1.5@jar",
+          "name": "[Let's Do] Beachparty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3564769,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-beachparty-forge-1.1.5.jar",
+            "MD5": "61328f6021b0ab3b579b6eeac34c93f2"
+          }
+        },
+        {
+          "id": "net.satisfy:brewery:1.1.8@jar",
+          "name": "[Let's Do] Brewery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2257440,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-brewery-forge-1.1.8.jar",
+            "MD5": "22be22828433a8120e0710fc90437a84"
+          }
+        },
+        {
+          "id": "satisfy.candlelight:candlelight:1.2.12.1@jar",
+          "name": "[Let's Do] Candlelight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2661626,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-candlelight-forge-1.2.12.1.jar",
+            "MD5": "e38b8374b386e6015e4f478a625999b7"
+          }
+        },
+        {
+          "id": "satisfyu.herbalbrews:herbalbrews:1.0.7@jar",
+          "name": "[Let's Do] HerbalBrews",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 692047,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-herbalbrews-forge-1.0.7.jar",
+            "MD5": "5cc585002e8a1ebd2fd46e40214180bd"
+          }
+        },
+        {
+          "id": "net.satisfyu:meadow:1.3.13.1@jar",
+          "name": "[Let's Do] Meadow",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2639734,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-meadow-forge-1.3.13.1.jar",
+            "MD5": "fa879695e4e1e9ca29c60ef2da88d756"
+          }
+        },
+        {
+          "id": "satisfyu.vinery:vinery:1.4.19@jar",
+          "name": "[Let's Do] Vinery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3384593,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/letsdo-vinery-forge-1.4.19.jar",
+            "MD5": "4b8b4aacb3207eea3513919a1db09d91"
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:libraryferret:4.0.0@jar",
+          "name": "Library ferret",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 190536,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/libraryferret-forge-1.20.1-4.0.0.jar",
+            "MD5": "68ba05aaf09f053934537af691e959df"
+          }
+        },
+        {
+          "id": "generated.forgemod:lightcity:1.1.0@jar",
+          "name": "Lightcity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4524,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/lightcity-1.1.0.jar",
+            "MD5": "0173b182057d7c4b07348687dae25ea3"
+          }
+        },
+        {
+          "id": "io.izzel.lightfall.client:lightfallclient:1.2.0+17@jar",
+          "name": "LightfallClient",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12614,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/lightfallclient-1.2.0.jar",
+            "MD5": "f5a28263a12fd30c8cb05e2603c3c468"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:1.9@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 152910,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/lionfishapi-1.9.jar",
+            "MD5": "e814e31ce3696e38e55dd39c6556d6f7"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.1.1@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511328,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/mcw-fences-1.1.1-mc1.20.1forge.jar",
+            "MD5": "2e1ad631642b49cc98c257651c6f2876"
+          }
+        },
+        {
+          "id": "com.mcwpaths.kikoz:mcwpaths:1.0.4@jar",
+          "name": "Macaw's Paths and Pavings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 622618,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/mcw-paths-1.0.4forge-mc1.20.1.jar",
+            "MD5": "842baf486d36825c0c0ab411f59e10a8"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.2.1@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1231882,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/mcw-windows-2.2.1-mc1.20.1forge.jar",
+            "MD5": "274c897730ad5b18dad1887652d3832d"
+          }
+        },
+        {
+          "id": "generated.forgemod:multiverse:core-4.3.12@jar",
+          "name": "Multiverse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 527529,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/multiverse-core-4.3.12.jar",
+            "MD5": "d6ca05683957aa8c0fadf4de93b994ce"
+          }
+        },
+        {
+          "id": "com.obscuria.obscureapi:obscure_api:15@jar",
+          "name": "Obscure API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 497136,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/obscure_api-15.jar",
+            "MD5": "e9cfade6b7a9964fcadffc6e8d4fedff"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2814481,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.9.jar",
+            "MD5": "dd3596e374db3975a2f83594da6a3e2b"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.1@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285463,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Placebo-1.20.1-8.6.1.jar",
+            "MD5": "99019d3495ebaaf5805eb7aba8de9371"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.0.9@jar",
+          "name": "Plasmo Voice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11554218,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/plasmovoice-forge-1.20.1-2.0.9.jar",
+            "MD5": "a8147fb960c422ce221a87fa030d02e4"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20%20(1).jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52205,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Prism-1.20.1-forge-1.0.5.jar",
+            "MD5": "de0e319e29e813f407314b33739f7eb8"
+          }
+        },
+        {
+          "id": "net.reeves:reevesfurniture:1.1304@jar",
+          "name": "Reeves Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3130884,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/reeves-furniture-1.20.1-1.1304-forge.jar",
+            "MD5": "f696dbe48a44a11bf18f71460b7fb048"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.7.1a@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 715099,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/rubidium-mc1.20.1-0.7.1a.jar",
+            "MD5": "239b216747c4bdbf8abd731213820e6a"
+          }
+        },
+        {
+          "id": "sereneseasons.core:sereneseasons:9.0.0.46@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 148149,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/SereneSeasons-1.20.1-9.0.0.46.jar",
+            "MD5": "30faa2569ac8c43e943d277755378b63"
+          }
+        },
+        {
+          "id": "net.mcreator:sitmod:1.0.3@jar",
+          "name": "Sitting+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45718,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Sitting+1.0.3.jar",
+            "MD5": "0478b752e90172c5fa3cdf83bede2bdf"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.20.5.1039@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 851762,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.20.5.1039.jar",
+            "MD5": "28973e50c332e18890ec117241b8024c"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:0.6.18.597@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1079415,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/sophisticatedcore-1.20.1-0.6.18.597.jar",
+            "MD5": "7c9cebb464f6cc8849a0a89908b6a309"
+          }
+        },
+        {
+          "id": "com.ninni:spawn:1.20.1-1.0.2@jar",
+          "name": "Spawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7052471,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/spawn-1.0.2-forge.jar",
+            "MD5": "8d4400e23884fde99ad23d6cae04882f"
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.1.2+forge.1cda73c@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110583,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/starlight-1.1.2+forge.1cda73c.jar",
+            "MD5": "da99a054428fb62342b6767b993c4c8d"
+          }
+        },
+        {
+          "id": "com.lothrazar:strongfarmland:1.1.1@jar",
+          "name": "Stronger Farmland",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7586,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/strongerfarmland-1.20.1-1.1.1.jar",
+            "MD5": "ca294cf47f0f2727da8ec09dae74d4a9"
+          }
+        },
+        {
+          "id": "net.stardustlabs:structory:1.3.4@jar",
+          "name": "Structory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1246746,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Structory_1.20.2_v1.3.4.jar",
+            "MD5": "31c97c41cf5c98c1101134ce592a2496"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.4@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107369,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.4.jar",
+            "MD5": "e3adff8ff2860db648de0e315802a592"
+          }
+        },
+        {
+          "id": "net.stardustlabs:terralith:2.4.11@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2478785,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/Terralith_1.20.4_v2.4.11.jar",
+            "MD5": "d05262a405a2c1e17f10eb4d4cf96797"
+          }
+        },
+        {
+          "id": "noobanidus.mods:toofast:0.4.3.5@jar",
+          "name": "Too Fast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3875,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/toofast-1.20-0.4.3.5.jar",
+            "MD5": "33c8f4dc6703ee68b415ed203b3a380c"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:4.3.2145@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23332086,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/twilightforest-1.20.1-4.3.2145-universal.jar",
+            "MD5": "38ada3402aca874ef738769f27db0d14"
+          }
+        },
+        {
+          "id": "xerca.xercapaint:xercapaint:1.20.1-1.0.0@jar",
+          "name": "Joy of Painting",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 397719,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/xercapaint-1.20.1-1.0.0.jar",
+            "MD5": "553f1fbfd40fc86fe71a342c7be3091d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 365910,
+            "url": "https://raw.githubusercontent.com/ii109/PoohServer-distro/main/servers/PoohServer-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.4.jar",
+            "MD5": "d6d1d9e6d324a0ee19f2b27557338cb8"
+          }
+        }
+      ]
+    }
+  ]
+}
